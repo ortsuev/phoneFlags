@@ -53,6 +53,7 @@ class CountryPickerDialog extends StatefulWidget {
     required this.selectedCountry,
     required this.filteredCountries,
     this.style,
+    required String searchFieldInputDecoration,
   }) : super(key: key);
 
   @override

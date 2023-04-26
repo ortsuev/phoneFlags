@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
                 SizedBox(height: 30),
                 TextField(
                   decoration: InputDecoration(
-                    labelText: 'Name',
+                    labelText: 'currentLang',
                     border: OutlineInputBorder(
                       borderSide: BorderSide(),
                     ),
@@ -52,8 +52,10 @@ class _MyAppState extends State<MyApp> {
                   height: 10,
                 ),
                 IntlPhoneField(
+                  mylang: 'en',
+                  invalidNumberMessage: 'mylang ==',
                   decoration: InputDecoration(
-                    labelText: 'Phone Number',
+                    labelText: 'Phone Numbder',
                     border: OutlineInputBorder(
                       borderSide: BorderSide(),
                     ),
